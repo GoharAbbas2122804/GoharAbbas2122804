@@ -1,6 +1,9 @@
 <svg viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gohar Abbas — Full Stack Web Dev | React Native App Dev | AI ML Engineer">
   <style>
     :root { --bone: #FFFFFF; --muted: #CCCCCC; --dim: #AAAAAA; --rule: #555555; --accent: #FFFFFF; }
+    @media (prefers-color-scheme: light) {
+      :root { --bone: #000000; --muted: #333333; --dim: #555555; --rule: #CCCCCC; --accent: #000000; }
+    }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
