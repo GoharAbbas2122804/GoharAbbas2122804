@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1000 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six featured projects by Gohar Abbas">
+  <style>
+    :root { --ink:#000000; --paper:#FFFFFF; }
+    @media (prefers-color-scheme:dark) { :root { --ink:#FFFFFF; --paper:#000000; } }
+    .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
+    .rule { stroke:var(--ink); stroke-width:1; }
+    .title { fill:var(--ink); font-size:17px; font-weight:700; letter-spacing:.8px; }
+    .copy { fill:var(--ink); font-size:12px; }
+    .meta { fill:var(--ink); font-size:11px; letter-spacing:.4px; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}.r6{animation-delay:.30s}
+    @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
+    :root { --ink:#000000; --paper:#FFFFFF; }
+  </style>
+
+  <g class="mono">
+    <g class="row r1" transform="translate(0 20)">
+      <text class="title" x="48" y="24">01 / ANALYZUME</text>
+      <text class="copy" x="48" y="49">AI-powered resume analyzer that scores, parses, and provides actionable feedback on job applications.</text>
+      <text class="copy" x="48" y="68">Uses NLP and intelligent matching to help candidates optimize their resumes for target roles.</text>
+      <text class="meta" x="48" y="87">REACT · NODE.JS · AI/NLP · RESUME ANALYSIS · FULL-STACK</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r2" transform="translate(0 130)">
+      <text class="title" x="48" y="24">02 / LAYERS LANDING PAGE</text>
+      <text class="copy" x="48" y="49">Modern, responsive landing page built with Next.js and Tailwind CSS featuring smooth animations.</text>
+      <text class="copy" x="48" y="68">Showcases component-driven design, performance optimization, and polished UI/UX patterns.</text>
+      <text class="meta" x="48" y="87">NEXT.JS · TAILWIND CSS · TYPESCRIPT · FRAMER MOTION · RESPONSIVE DESIGN</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r3" transform="translate(0 240)">
+      <text class="title" x="48" y="24">03 / RENTO</text>
+      <text class="copy" x="48" y="49">Full-stack car rental application with booking management, user authentication, and admin dashboards.</text>
+      <text class="copy" x="48" y="68">Built on the MERN stack with real-time availability tracking and seamless payment flows.</text>
+      <text class="meta" x="48" y="87">REACT · NODE.JS · EXPRESS · MONGODB · MERN · AUTH</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r4" transform="translate(0 350)">
+      <text class="title" x="48" y="24">04 / ZYRAH E-COMMERCE</text>
+      <text class="copy" x="48" y="49">Feature-rich e-commerce web application with product catalog, cart, checkout, and order management.</text>
+      <text class="copy" x="48" y="68">Scalable architecture with responsive design serving thousands of users across devices.</text>
+      <text class="meta" x="48" y="87">REACT · NODE.JS · MONGODB · REDUX · E-COMMERCE · PAYMENTS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r5" transform="translate(0 460)">
+      <text class="title" x="48" y="24">05 / META KEYS — 3D KEYBOARD</text>
+      <text class="copy" x="48" y="49">Immersive 3D keyboard website built with Three.js featuring interactive key animations and WebGL rendering.</text>
+      <text class="copy" x="48" y="68">Blends creative 3D modeling with frontend engineering for a standout portfolio experience.</text>
+      <text class="meta" x="48" y="87">THREE.JS · WEBGL · REACT · 3D MODELING · BLENDER · INTERACTIVE UI</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r6" transform="translate(0 570)">
+      <text class="title" x="48" y="24">06 / SIGNALIST</text>
+      <text class="copy" x="48" y="49">Stock market analyzer with real-time data visualization, trend analysis, and portfolio insights.</text>
+      <text class="copy" x="48" y="68">Combines fintech domain knowledge with modern frontend patterns for actionable market intelligence.</text>
+      <text class="meta" x="48" y="87">REACT · TYPESCRIPT · FINANCIAL DATA · CHARTS · FINTECH · ANALYTICS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+  </g>
+</svg>
