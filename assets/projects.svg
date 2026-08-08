@@ -1,8 +1,8 @@
 <svg viewBox="0 0 1000 1260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured projects by Gohar Abbas">
   <style>
-    :root { --ink:#000000; --copy:#222222; --meta:#444444; --rule:#CCCCCC; --paper:#FFFFFF; }
+    :root { --ink:#000000; --copy:#222222; --meta:#444444; --rule:#CCCCCC; --paper:#FFFFFF; --link:#0284c7; }
     @media (prefers-color-scheme: dark) {
-      :root { --ink:#FFFFFF; --copy:#EEEEEE; --meta:#CCCCCC; --rule:#555555; --paper:#000000; }
+      :root { --ink:#FFFFFF; --copy:#EEEEEE; --meta:#CCCCCC; --rule:#555555; --paper:#000000; --link:#38bdf8; }
     }
     .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
     .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
@@ -10,8 +10,8 @@
     .title { fill:var(--ink); font-size:19px; font-weight:800; letter-spacing:0.5px; }
     .copy { fill:var(--copy); font-size:14px; font-weight:500; }
     .meta { fill:var(--meta); font-size:12.5px; font-weight:700; letter-spacing:.6px; }
-    .link-tag { fill:var(--meta); font-size:12px; font-weight:700; }
-    a:hover .title { fill:#36bcf7; }
+    .link-tag { fill:var(--link); font-size:13.5px; font-weight:800; letter-spacing:0.5px; }
+    a:hover .title { fill:var(--link); }
     @keyframes reveal { from { opacity:0; } to { opacity:1; } }
     .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}
     .r6{animation-delay:.30s}.r7{animation-delay:.35s}.r8{animation-delay:.40s}.r9{animation-delay:.45s}.r10{animation-delay:.50s}.r11{animation-delay:.55s}
@@ -22,7 +22,7 @@
     <!-- 01 / FLOW -->
     <g class="row r1" transform="translate(0 20)">
       <a href="https://github.com/GoharAbbas2122804/Flow_Productivity-App" target="_blank">
-        <text class="title" x="48" y="24">01 / FLOW — POMODORO &amp; PRODUCTIVITY APP <tspan class="link-tag">[GITHUB ↗]</tspan></text>
+        <text class="title" x="48" y="24">01 / FLOW — POMODORO &amp; PRODUCTIVITY APP <tspan class="link-tag">[GITHUB REPO ↗]</tspan></text>
       </a>
       <a href="https://expo.dev/accounts/goharabbas/projects/mobile/builds/30e2131e-eeb8-49ee-a742-ef6cca69c4c4" target="_blank">
         <text class="link-tag" x="952" y="24" text-anchor="end">[EAS APP DOWNLOAD ⚡]</text>

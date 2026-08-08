@@ -13,6 +13,8 @@
         history.scrollRestoration = 'manual';
       }
       window.scrollTo(0, 0);
+      document.addEventListener('DOMContentLoaded', () => window.scrollTo(0, 0));
+      window.addEventListener('load', () => window.scrollTo(0, 0));
     </script>
     <style>
       body {
