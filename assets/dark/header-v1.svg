@@ -1,7 +1,6 @@
 <svg viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gohar Abbas — Full Stack Web Dev | React Native App Dev | AI ML Engineer">
   <style>
-    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; }
-    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; } }
+    :root { --bone: #FFFFFF; --muted: #CCCCCC; --dim: #AAAAAA; --rule: #555555; --accent: #FFFFFF; }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
@@ -14,49 +13,48 @@
       .draw,.rise,.fade { animation: none; }
       .draw{stroke-dashoffset:0} .rise,.fade{opacity:1}
     }
-    :root { --bone:#FFFFFF; --muted:#CCCCCC; --dim:#999999; --rule:#444444; --accent:#FFFFFF; --node-bg:#000000; --core-bg:#000000; --ghost:#FFFFFF; --ink:#FFFFFF; --paper:#000000; }
   </style>
 
-  <line class="draw a1" x1="48" y1="58" x2="952" y2="58" stroke="var(--rule)" stroke-width="1"/>
+  <line class="draw a1" x1="48" y1="58" x2="952" y2="58" stroke="var(--rule)" stroke-width="1.5"/>
   <g class="fade a1">
-    <text class="mono" fill="var(--muted)" x="48" y="44" font-size="11" letter-spacing="3.5">PORTFOLIO — INDEX Nº 001</text>
-    <text class="mono" fill="var(--muted)" x="952" y="44" font-size="11" letter-spacing="3.5" text-anchor="end">REMOTE WORLDWIDE</text>
+    <text class="mono" fill="var(--muted)" x="48" y="44" font-size="12" font-weight="700" letter-spacing="3.5">PORTFOLIO — INDEX Nº 001</text>
+    <text class="mono" fill="var(--muted)" x="952" y="44" font-size="12" font-weight="700" letter-spacing="3.5" text-anchor="end">REMOTE WORLDWIDE</text>
   </g>
 
   <g class="rise a2">
-    <text fill="var(--bone)" class="mono" x="46" y="160" font-size="64" font-weight="700" letter-spacing="-2">Gohar Abbas</text>
+    <text fill="var(--bone)" class="mono" x="46" y="160" font-size="68" font-weight="900" letter-spacing="-2">Gohar Abbas</text>
   </g>
   <g class="fade a3">
-    <text fill="var(--muted)" class="mono" x="48" y="202" font-size="17" font-weight="600">Full Stack Web Dev  ·  React Native App Dev  ·  AI ML Engineer</text>
+    <text fill="var(--muted)" class="mono" x="48" y="202" font-size="19" font-weight="700">Full Stack Web Dev  ·  React Native App Dev  ·  AI ML Engineer</text>
   </g>
 
   <g class="fade a4">
-    <text fill="var(--dim)" class="mono" x="48" y="254" font-size="12.5" letter-spacing="1">focus  ▸</text>
-    <text fill="var(--accent)" class="mono" x="128" y="254" font-size="12.5" letter-spacing="1">Full-Stack Web · React Native Mobile · AI/ML Engineering &amp; Integration</text>
+    <text fill="var(--dim)" class="mono" x="48" y="254" font-size="14" font-weight="800" letter-spacing="1">focus  ▸</text>
+    <text fill="var(--accent)" class="mono" x="136" y="254" font-size="14" font-weight="700" letter-spacing="0.5">Full-Stack Web · React Native Mobile · AI/ML Engineering &amp; Integration</text>
   </g>
   <g class="fade a5">
-    <text fill="var(--dim)" class="mono" x="48" y="284" font-size="12.5" letter-spacing="1">links  ▸</text>
-    <a href="https://github.com/GoharAbbas2122804" target="_blank"><text fill="var(--accent)" class="mono" x="128" y="284" font-size="12.5">GitHub</text></a>
-    <text fill="var(--muted)" class="mono" x="186" y="284" font-size="12.5">·</text>
-    <a href="https://www.linkedin.com/in/gohar-abbas-106519321/" target="_blank"><text fill="var(--accent)" class="mono" x="202" y="284" font-size="12.5">LinkedIn</text></a>
-    <text fill="var(--muted)" class="mono" x="274" y="284" font-size="12.5">·</text>
-    <a href="https://www.threads.com/@goharabbas2122804" target="_blank"><text fill="var(--accent)" class="mono" x="290" y="284" font-size="12.5">Threads</text></a>
-    <text fill="var(--muted)" class="mono" x="358" y="284" font-size="12.5">·</text>
-    <a href="https://www.upwork.com/freelancers/~01333d822dfed5da18" target="_blank"><text fill="var(--accent)" class="mono" x="374" y="284" font-size="12.5">Upwork</text></a>
-    <text fill="var(--muted)" class="mono" x="432" y="284" font-size="12.5">·</text>
-    <a href="mailto:GoharAbbas2122804@gmail.com"><text fill="var(--accent)" class="mono" x="448" y="284" font-size="12.5">Email (GoharAbbas2122804@gmail.com)</text></a>
+    <text fill="var(--dim)" class="mono" x="48" y="284" font-size="14" font-weight="800" letter-spacing="1">links  ▸</text>
+    <a href="https://github.com/GoharAbbas2122804" target="_blank"><text fill="var(--accent)" class="mono" x="136" y="284" font-size="14" font-weight="700">GitHub</text></a>
+    <text fill="var(--muted)" class="mono" x="198" y="284" font-size="14">·</text>
+    <a href="https://www.linkedin.com/in/gohar-abbas-106519321/" target="_blank"><text fill="var(--accent)" class="mono" x="214" y="284" font-size="14" font-weight="700">LinkedIn</text></a>
+    <text fill="var(--muted)" class="mono" x="290" y="284" font-size="14">·</text>
+    <a href="https://www.threads.com/@goharabbas2122804" target="_blank"><text fill="var(--accent)" class="mono" x="306" y="284" font-size="14" font-weight="700">Threads</text></a>
+    <text fill="var(--muted)" class="mono" x="378" y="284" font-size="14">·</text>
+    <a href="https://www.upwork.com/freelancers/~01333d822dfed5da18" target="_blank"><text fill="var(--accent)" class="mono" x="394" y="284" font-size="14" font-weight="700">Upwork</text></a>
+    <text fill="var(--muted)" class="mono" x="456" y="284" font-size="14">·</text>
+    <a href="mailto:GoharAbbas2122804@gmail.com"><text fill="var(--accent)" class="mono" x="472" y="284" font-size="14" font-weight="700">Email (GoharAbbas2122804@gmail.com)</text></a>
   </g>
   <g class="fade a5">
-    <text fill="var(--dim)" class="mono" x="48" y="312" font-size="12" letter-spacing="1">status ▸ working remotely worldwide · available for contract</text>
+    <text fill="var(--dim)" class="mono" x="48" y="312" font-size="13.5" font-weight="700" letter-spacing="1">status ▸ working remotely worldwide · available for contract</text>
   </g>
 
-  <line class="draw a5" x1="48" y1="342" x2="952" y2="342" stroke="var(--rule)" stroke-width="1"/>
+  <line class="draw a5" x1="48" y1="342" x2="952" y2="342" stroke="var(--rule)" stroke-width="1.5"/>
   <g class="fade a6">
-    <text fill="var(--muted)" class="mono" x="48" y="374" font-size="11.5" letter-spacing="3">FULL-STACK WEB</text>
-    <text fill="var(--accent)" class="mono" x="220" y="374" font-size="11.5">·</text>
-    <text fill="var(--muted)" class="mono" x="245" y="374" font-size="11.5" letter-spacing="3">REACT NATIVE</text>
-    <text fill="var(--accent)" class="mono" x="410" y="374" font-size="11.5">·</text>
-    <text fill="var(--muted)" class="mono" x="435" y="374" font-size="11.5" letter-spacing="3">AI &amp; ML ENGINEER</text>
-    <text fill="var(--muted)" class="mono" x="952" y="374" font-size="11.5" letter-spacing="3" text-anchor="end">WORLDWIDE · 2026 →</text>
+    <text fill="var(--muted)" class="mono" x="48" y="374" font-size="13" font-weight="800" letter-spacing="3">FULL-STACK WEB</text>
+    <text fill="var(--accent)" class="mono" x="228" y="374" font-size="13">·</text>
+    <text fill="var(--muted)" class="mono" x="254" y="374" font-size="13" font-weight="800" letter-spacing="3">REACT NATIVE</text>
+    <text fill="var(--accent)" class="mono" x="424" y="374" font-size="13">·</text>
+    <text fill="var(--muted)" class="mono" x="450" y="374" font-size="13" font-weight="800" letter-spacing="3">AI &amp; ML ENGINEER</text>
+    <text fill="var(--muted)" class="mono" x="952" y="374" font-size="13" font-weight="800" letter-spacing="3" text-anchor="end">WORLDWIDE · 2026 →</text>
   </g>
 </svg>

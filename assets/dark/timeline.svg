@@ -1,8 +1,8 @@
 <svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: first commit, frontend role, freelance, Meta certification, now full stack working remotely">
   <style>
-    :root { --bone: #FFFFFF; --muted: #CCCCCC; --dim: #999999; --rule: #444444; --accent: #FFFFFF; }
+    :root { --bone: #FFFFFF; --muted: #CCCCCC; --dim: #AAAAAA; --rule: #555555; --accent: #FFFFFF; }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 1110; stroke-dashoffset: 1110; animation: draw 2.4s cubic-bezier(.6,0,.2,1) forwards; }
+    .axis { stroke: var(--rule); stroke-width: 1.5; stroke-dasharray: 1110; stroke-dashoffset: 1110; animation: draw 2.4s cubic-bezier(.6,0,.2,1) forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
     .m { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
     @keyframes rise { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
@@ -16,52 +16,52 @@
     }
   </style>
 
-  <line x1="48" y1="40" x2="1152" y2="40" stroke="var(--rule)"/>
-  <text fill="var(--muted)" class="mono" x="48" y="28" font-size="11" letter-spacing="3.5">THE ROUTE SO FAR</text>
-  <text fill="var(--muted)" class="mono" x="1152" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 03</text>
+  <line x1="48" y1="40" x2="1152" y2="40" stroke="var(--rule)" stroke-width="1.5"/>
+  <text fill="var(--muted)" class="mono" x="48" y="28" font-size="12.5" font-weight="800" letter-spacing="3.5">THE ROUTE SO FAR</text>
+  <text fill="var(--muted)" class="mono" x="1152" y="28" font-size="12.5" font-weight="800" letter-spacing="3.5" text-anchor="end">FIG. 03</text>
 
   <line class="axis" x1="48" y1="125" x2="1158" y2="125"/>
 
   <g class="m m1">
-    <circle cx="100" cy="125" r="4" fill="var(--bone)"/>
-    <line x1="100" y1="121" x2="100" y2="96" stroke="var(--rule)"/>
-    <text fill="var(--accent)" class="mono" x="100" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2020</text>
-    <text fill="var(--bone)" class="mono" x="100" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">first commit</text>
+    <circle cx="100" cy="125" r="4.5" fill="var(--bone)"/>
+    <line x1="100" y1="121" x2="100" y2="96" stroke="var(--rule)" stroke-width="1.5"/>
+    <text fill="var(--accent)" class="mono" x="100" y="74" font-size="13.5" font-weight="800" letter-spacing="2" text-anchor="middle">2020</text>
+    <text fill="var(--bone)" class="mono" x="100" y="90" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">first commit</text>
   </g>
 
   <g class="m m2">
-    <circle cx="310" cy="125" r="4" fill="var(--bone)"/>
-    <line x1="310" y1="129" x2="310" y2="154" stroke="var(--rule)"/>
-    <text fill="var(--accent)" class="mono" x="310" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2023</text>
-    <text fill="var(--bone)" class="mono" x="310" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Frontend Developer · React/Tailwind</text>
+    <circle cx="310" cy="125" r="4.5" fill="var(--bone)"/>
+    <line x1="310" y1="129" x2="310" y2="154" stroke="var(--rule)" stroke-width="1.5"/>
+    <text fill="var(--accent)" class="mono" x="310" y="172" font-size="13.5" font-weight="800" letter-spacing="2" text-anchor="middle">2023</text>
+    <text fill="var(--bone)" class="mono" x="310" y="188" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">Frontend Developer · React/Tailwind</text>
   </g>
 
   <g class="m m3">
-    <circle cx="520" cy="125" r="4" fill="var(--bone)"/>
-    <line x1="520" y1="121" x2="520" y2="96" stroke="var(--rule)"/>
-    <text fill="var(--accent)" class="mono" x="520" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2024</text>
-    <text fill="var(--bone)" class="mono" x="520" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">Meta JS Certification · MERN Stack</text>
+    <circle cx="520" cy="125" r="4.5" fill="var(--bone)"/>
+    <line x1="520" y1="121" x2="520" y2="96" stroke="var(--rule)" stroke-width="1.5"/>
+    <text fill="var(--accent)" class="mono" x="520" y="74" font-size="13.5" font-weight="800" letter-spacing="2" text-anchor="middle">2024</text>
+    <text fill="var(--bone)" class="mono" x="520" y="90" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">Meta JS Certification · MERN Stack</text>
   </g>
 
   <g class="m m4">
-    <circle cx="730" cy="125" r="4" fill="var(--bone)"/>
-    <line x1="730" y1="129" x2="730" y2="154" stroke="var(--rule)"/>
-    <text fill="var(--accent)" class="mono" x="730" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2025</text>
-    <text fill="var(--bone)" class="mono" x="730" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Freelance · Web &amp; App Development</text>
+    <circle cx="730" cy="125" r="4.5" fill="var(--bone)"/>
+    <line x1="730" y1="129" x2="730" y2="154" stroke="var(--rule)" stroke-width="1.5"/>
+    <text fill="var(--accent)" class="mono" x="730" y="172" font-size="13.5" font-weight="800" letter-spacing="2" text-anchor="middle">2025</text>
+    <text fill="var(--bone)" class="mono" x="730" y="188" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">Freelance · Web &amp; App Development</text>
   </g>
 
   <g class="m m5">
-    <circle cx="880" cy="125" r="4" fill="var(--bone)"/>
-    <line x1="880" y1="121" x2="880" y2="96" stroke="var(--rule)"/>
-    <text fill="var(--accent)" class="mono" x="880" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2026</text>
-    <text fill="var(--bone)" class="mono" x="880" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">AI/ML Engineering · React Native</text>
+    <circle cx="880" cy="125" r="4.5" fill="var(--bone)"/>
+    <line x1="880" y1="121" x2="880" y2="96" stroke="var(--rule)" stroke-width="1.5"/>
+    <text fill="var(--accent)" class="mono" x="880" y="74" font-size="13.5" font-weight="800" letter-spacing="2" text-anchor="middle">2026</text>
+    <text fill="var(--bone)" class="mono" x="880" y="90" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">AI/ML Engineering · React Native</text>
   </g>
 
   <g class="m m6">
-    <circle class="ring" cx="1060" cy="125" r="4" stroke="var(--accent)" fill="none"/>
-    <circle class="pulse" cx="1060" cy="125" r="4.5" fill="var(--accent)"/>
-    <line x1="1060" y1="129" x2="1060" y2="154" stroke="var(--rule)"/>
-    <text fill="var(--accent)" class="mono" x="1060" y="172" font-size="11" letter-spacing="2" text-anchor="middle">NOW</text>
-    <text fill="var(--bone)" class="mono" x="1060" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Full Stack · Remote Worldwide · available for contract</text>
+    <circle class="ring" cx="1060" cy="125" r="5" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+    <circle class="pulse" cx="1060" cy="125" r="5" fill="var(--accent)"/>
+    <line x1="1060" y1="129" x2="1060" y2="154" stroke="var(--rule)" stroke-width="1.5"/>
+    <text fill="var(--accent)" class="mono" x="1060" y="172" font-size="13.5" font-weight="800" letter-spacing="2" text-anchor="middle">NOW</text>
+    <text fill="var(--bone)" class="mono" x="1060" y="188" font-size="12.5" font-weight="700" letter-spacing="1" text-anchor="middle">Full Stack · Remote Worldwide · available for contract</text>
   </g>
 </svg>
