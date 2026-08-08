@@ -12,14 +12,14 @@
 
   <g class="rise a1">
     <text class="mono" x="48" y="42"  font-size="12" fill="var(--accent)" letter-spacing="2">NOW</text>
-    <text class="mono" x="136" y="42"  font-size="15" fill="var(--bone)">Full Stack Web &amp; React Native Mobile Developer · Dubai / Remote</text>
+    <text class="mono" x="136" y="42"  font-size="15" fill="var(--bone)">Full Stack Web &amp; React Native Mobile Developer · Remote Worldwide</text>
     <text class="mono" x="136" y="68"  font-size="14" fill="var(--muted)">15+ responsive web &amp; mobile apps · cross-platform React Native · performance optimized</text>
     <text class="mono" x="136" y="90"  font-size="14" fill="var(--muted)">AI/ML model integration · Docker deployment · GitHub Actions CI/CD pipelines</text>
   </g>
 
   <g class="rise a2">
     <text class="mono" x="48" y="148" font-size="12" fill="var(--accent)" letter-spacing="2">2023 – 2025</text>
-    <text class="mono" x="136" y="148" font-size="15" fill="var(--bone)">Frontend &amp; Mobile Developer · React &amp; React Native · Dubai</text>
+    <text class="mono" x="136" y="148" font-size="15" fill="var(--bone)">Frontend &amp; Mobile Developer · React &amp; React Native · Remote</text>
     <text class="mono" x="136" y="174" font-size="14" fill="var(--muted)">built interactive UIs &amp; native mobile screens · reduced load times by 40%</text>
     <text class="mono" x="136" y="196" font-size="14" fill="var(--muted)">Redux / Context state management · agile collaboration · component-driven architecture</text>
   </g>

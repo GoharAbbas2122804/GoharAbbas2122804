@@ -1,10 +1,10 @@
-<svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: Gohar Abbas — Full Stack Web Dev, React Native App Dev, AI ML Engineer, based in Dubai">
+<svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: Gohar Abbas — Full Stack Web Dev, React Native App Dev, AI ML Engineer, working remotely worldwide">
   <style>
     :root { --bone: #444444; --rule: #C0C0C0; --accent: #555555; }
     @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --accent: #AAAAAA; } }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .belt { animation: belt 36s linear infinite; }
-    @keyframes belt { from{transform:translateX(0)} to{transform:translateX(-1560px)} }
+    @keyframes belt { from{transform:translateX(0)} to{transform:translateX(-1680px)} }
     .dot { animation: pulse 2.4s ease-in-out infinite; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
     @media (prefers-reduced-motion: reduce) { .belt,.dot { animation: none; } }
@@ -16,10 +16,10 @@
   <line x1="0" y1="63.5" x2="1000" y2="63.5" stroke="var(--rule)"/>
   <g class="belt">
     <text class="mono" x="60" y="38" font-size="13" letter-spacing="2">
-      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--bone)">FULL STACK WEB DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">REACT NATIVE APP DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">AI &amp; ML ENGINEER</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">DUBAI, UAE</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">OPEN TO FREELANCE &amp; COLLABORATION</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--bone)">FULL STACK WEB DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">REACT NATIVE APP DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">AI &amp; ML ENGINEER</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">WORKING REMOTELY WORLDWIDE</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">AVAILABLE FOR CONTRACT</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
     </text>
-    <text class="mono" x="1620" y="38" font-size="13" letter-spacing="2">
-      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--bone)">FULL STACK WEB DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">REACT NATIVE APP DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">AI &amp; ML ENGINEER</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">DUBAI, UAE</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">OPEN TO FREELANCE &amp; COLLABORATION</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+    <text class="mono" x="1740" y="38" font-size="13" letter-spacing="2">
+      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--bone)">FULL STACK WEB DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">REACT NATIVE APP DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">AI &amp; ML ENGINEER</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">WORKING REMOTELY WORLDWIDE</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">AVAILABLE FOR CONTRACT</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
     </text>
   </g>
   <defs>

@@ -1,7 +1,7 @@
-<svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: first commit, frontend role, freelance, Meta certification, now full stack in Dubai">
+<svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: first commit, frontend role, freelance, Meta certification, now full stack working remotely">
   <style>
-    :root { --bone: #444444; --muted: #888888; --dim: #AAAAAA; --rule: #C0C0C0; --accent: #555555; }
-    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --muted: #777777; --dim: #666666; --rule: #444444; --accent: #AAAAAA; } }
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; } }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 1110; stroke-dashoffset: 1110; animation: draw 2.4s cubic-bezier(.6,0,.2,1) forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
@@ -15,7 +15,7 @@
     @media (prefers-reduced-motion: reduce) {
       .axis,.m,.pulse,.ring { animation: none; } .axis{stroke-dashoffset:0} .m{opacity:1} .ring{opacity:0}
     }
-      :root { --bone: #000000; --muted: #000000; --dim: #000000; --rule: #000000; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; --ghost: #000000; }
+    :root { --bone: #000000; --muted: #333333; --dim: #555555; --rule: #CCCCCC; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; --ghost: #000000; }
   </style>
 
   <line x1="48" y1="40" x2="1152" y2="40" stroke="var(--rule)"/>
@@ -49,14 +49,14 @@
     <circle cx="730" cy="125" r="4" fill="var(--bone)"/>
     <line x1="730" y1="129" x2="730" y2="154" stroke="var(--rule)"/>
     <text fill="var(--accent)" class="mono" x="730" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2025</text>
-    <text fill="var(--bone)" class="mono" x="730" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Freelance · 15+ apps · Three.js projects</text>
+    <text fill="var(--bone)" class="mono" x="730" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Freelance · Web &amp; App Development</text>
   </g>
 
   <g class="m m5">
     <circle cx="880" cy="125" r="4" fill="var(--bone)"/>
     <line x1="880" y1="121" x2="880" y2="96" stroke="var(--rule)"/>
     <text fill="var(--accent)" class="mono" x="880" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2026</text>
-    <text fill="var(--bone)" class="mono" x="880" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">AI/ML upskilling · open-source</text>
+    <text fill="var(--bone)" class="mono" x="880" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">AI/ML Engineering · React Native</text>
   </g>
 
   <g class="m m6">
@@ -64,6 +64,6 @@
     <circle class="pulse" cx="1060" cy="125" r="4.5" fill="var(--accent)"/>
     <line x1="1060" y1="129" x2="1060" y2="154" stroke="var(--rule)"/>
     <text fill="var(--accent)" class="mono" x="1060" y="172" font-size="11" letter-spacing="2" text-anchor="middle">NOW</text>
-    <text fill="var(--bone)" class="mono" x="1060" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Full Stack · Dubai · open to work</text>
+    <text fill="var(--bone)" class="mono" x="1060" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Full Stack · Remote Worldwide · available for contract</text>
   </g>
 </svg>

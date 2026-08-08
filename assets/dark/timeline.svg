@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: first commit, frontend role, freelance, Meta certification, now full stack in Dubai">
+<svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: first commit, frontend role, freelance, Meta certification, now full stack working remotely">
   <style>
     :root { --bone: #FFFFFF; --muted: #CCCCCC; --dim: #999999; --rule: #444444; --accent: #FFFFFF; }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
@@ -47,14 +47,14 @@
     <circle cx="730" cy="125" r="4" fill="var(--bone)"/>
     <line x1="730" y1="129" x2="730" y2="154" stroke="var(--rule)"/>
     <text fill="var(--accent)" class="mono" x="730" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2025</text>
-    <text fill="var(--bone)" class="mono" x="730" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Freelance · 15+ apps · Three.js projects</text>
+    <text fill="var(--bone)" class="mono" x="730" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Freelance · Web &amp; App Development</text>
   </g>
 
   <g class="m m5">
     <circle cx="880" cy="125" r="4" fill="var(--bone)"/>
     <line x1="880" y1="121" x2="880" y2="96" stroke="var(--rule)"/>
     <text fill="var(--accent)" class="mono" x="880" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2026</text>
-    <text fill="var(--bone)" class="mono" x="880" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">AI/ML upskilling · open-source</text>
+    <text fill="var(--bone)" class="mono" x="880" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">AI/ML Engineering · React Native</text>
   </g>
 
   <g class="m m6">
@@ -62,6 +62,6 @@
     <circle class="pulse" cx="1060" cy="125" r="4.5" fill="var(--accent)"/>
     <line x1="1060" y1="129" x2="1060" y2="154" stroke="var(--rule)"/>
     <text fill="var(--accent)" class="mono" x="1060" y="172" font-size="11" letter-spacing="2" text-anchor="middle">NOW</text>
-    <text fill="var(--bone)" class="mono" x="1060" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Full Stack · Dubai · open to work</text>
+    <text fill="var(--bone)" class="mono" x="1060" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">Full Stack · Remote Worldwide · available for contract</text>
   </g>
 </svg>
