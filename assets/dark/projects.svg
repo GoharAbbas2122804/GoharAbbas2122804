@@ -1,58 +1,143 @@
-<svg viewBox="0 0 1000 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six featured projects by Gohar Abbas">
+<svg viewBox="0 0 1000 1260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured projects by Gohar Abbas">
   <style>
-    :root { --ink:#FFFFFF; --paper:#000000; }
+    :root { --ink:#FFFFFF; --copy:#EEEEEE; --meta:#CCCCCC; --rule:#555555; --paper:#000000; }
+    @media (prefers-color-scheme: light) {
+      :root { --ink:#000000; --copy:#222222; --meta:#444444; --rule:#CCCCCC; --paper:#FFFFFF; }
+    }
     .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
     .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
-    .rule { stroke:var(--ink); stroke-width:1.5; }
-    .title { fill:#FFFFFF; font-size:20px; font-weight:800; letter-spacing:1px; }
-    .copy { fill:#EEEEEE; font-size:14.5px; font-weight:500; }
-    .meta { fill:#CCCCCC; font-size:13px; font-weight:700; letter-spacing:.6px; }
+    .rule { stroke:var(--rule); stroke-width:1.5; }
+    .title { fill:var(--ink); font-size:19px; font-weight:800; letter-spacing:0.5px; }
+    .copy { fill:var(--copy); font-size:14px; font-weight:500; }
+    .meta { fill:var(--meta); font-size:12.5px; font-weight:700; letter-spacing:.6px; }
+    .link-tag { fill:var(--meta); font-size:12px; font-weight:700; }
+    a:hover .title { fill:#36bcf7; }
     @keyframes reveal { from { opacity:0; } to { opacity:1; } }
-    .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}.r6{animation-delay:.30s}
+    .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}
+    .r6{animation-delay:.30s}.r7{animation-delay:.35s}.r8{animation-delay:.40s}.r9{animation-delay:.45s}.r10{animation-delay:.50s}.r11{animation-delay:.55s}
     @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
   </style>
 
   <g class="mono">
+    <!-- 01 / FLOW -->
     <g class="row r1" transform="translate(0 20)">
-      <text class="title" x="48" y="24">01 / ANALYZUME</text>
-      <text class="copy" x="48" y="49">AI-powered resume analyzer that scores, parses, and provides actionable feedback on job applications.</text>
-      <text class="copy" x="48" y="68">Uses NLP and intelligent matching to help candidates optimize their resumes for target roles.</text>
-      <text class="meta" x="48" y="87">REACT · NODE.JS · AI/NLP · RESUME ANALYSIS · FULL-STACK</text>
+      <a href="https://github.com/GoharAbbas2122804/Flow_Productivity-App" target="_blank">
+        <text class="title" x="48" y="24">01 / FLOW — POMODORO &amp; PRODUCTIVITY APP <tspan class="link-tag">[GITHUB ↗]</tspan></text>
+      </a>
+      <a href="https://expo.dev/accounts/goharabbas/projects/mobile/builds/30e2131e-eeb8-49ee-a742-ef6cca69c4c4" target="_blank">
+        <text class="link-tag" x="952" y="24" text-anchor="end">[EAS APP DOWNLOAD ⚡]</text>
+      </a>
+      <text class="copy" x="48" y="49">Productivity &amp; Pomodoro session tracking app built with React Native for students, developers, and athletes.</text>
+      <text class="copy" x="48" y="68">Helps users stay focused, track performance metrics, and optimize daily study/work routines.</text>
+      <text class="meta" x="48" y="87">REACT NATIVE · EXPO · REDUX · MOBILE APP · PRODUCTIVITY TRACKER</text>
       <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
     </g>
+
+    <!-- 02 / SIGNALIST -->
     <g class="row r2" transform="translate(0 130)">
-      <text class="title" x="48" y="24">02 / LAYERS LANDING PAGE</text>
-      <text class="copy" x="48" y="49">Modern, responsive landing page built with Next.js and Tailwind CSS featuring smooth animations.</text>
-      <text class="copy" x="48" y="68">Showcases component-driven design, performance optimization, and polished UI/UX patterns.</text>
-      <text class="meta" x="48" y="87">NEXT.JS · TAILWIND CSS · TYPESCRIPT · FRAMER MOTION · RESPONSIVE DESIGN</text>
+      <a href="https://signalist-stock-market-analyzer-rjo.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">02 / SIGNALIST — STOCK MARKET ANALYZER <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Real-time stock market analytics platform helping traders evaluate market trends, stock indicators &amp; insights.</text>
+      <text class="copy" x="48" y="68">Combines financial domain algorithms with dynamic chart visualizations for actionable market intelligence.</text>
+      <text class="meta" x="48" y="87">REACT · TYPESCRIPT · CHARTS · FINTECH · MARKET ANALYTICS</text>
       <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
     </g>
+
+    <!-- 03 / YASEEN CLINIC -->
     <g class="row r3" transform="translate(0 240)">
-      <text class="title" x="48" y="24">03 / RENTO</text>
-      <text class="copy" x="48" y="49">Full-stack car rental application with booking management, user authentication, and admin dashboards.</text>
-      <text class="copy" x="48" y="68">Built on the MERN stack with real-time availability tracking and seamless payment flows.</text>
-      <text class="meta" x="48" y="87">REACT · NODE.JS · EXPRESS · MONGODB · MERN · AUTH</text>
+      <a href="https://yaseenmedicalclinic.com/" target="_blank">
+        <text class="title" x="48" y="24">03 / NAUMAN YASEEN MEDICAL CLINIC <tspan class="link-tag">[LIVE SITE ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Professional healthcare &amp; medical clinic platform built in Next.js featuring SEO optimization &amp; contact forms.</text>
+      <text class="copy" x="48" y="68">Showcases medical services, patient care information, and streamlined appointment inquiry workflows.</text>
+      <text class="meta" x="48" y="87">NEXT.JS · TAILWIND CSS · SEO OPTIMIZED · HEALTHCARE · WEB PLATFORM</text>
       <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
     </g>
+
+    <!-- 04 / ZYRAH -->
     <g class="row r4" transform="translate(0 350)">
-      <text class="title" x="48" y="24">04 / ZYRAH E-COMMERCE</text>
-      <text class="copy" x="48" y="49">Feature-rich e-commerce web application with product catalog, cart, checkout, and order management.</text>
-      <text class="copy" x="48" y="68">Scalable architecture with responsive design serving thousands of users across devices.</text>
+      <a href="https://zyrah.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">04 / ZYRAH — E-COMMERCE STORE <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Feature-rich e-commerce web application with product catalog, cart, secure checkout, and order flow.</text>
+      <text class="copy" x="48" y="68">Scalable architecture with responsive UI serving customers across mobile and desktop devices.</text>
       <text class="meta" x="48" y="87">REACT · NODE.JS · MONGODB · REDUX · E-COMMERCE · PAYMENTS</text>
       <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
     </g>
+
+    <!-- 05 / METADATA -->
     <g class="row r5" transform="translate(0 460)">
-      <text class="title" x="48" y="24">05 / META KEYS — 3D KEYBOARD</text>
-      <text class="copy" x="48" y="49">Immersive 3D keyboard website built with Three.js featuring interactive key animations and WebGL rendering.</text>
-      <text class="copy" x="48" y="68">Blends creative 3D modeling with frontend engineering for a standout portfolio experience.</text>
-      <text class="meta" x="48" y="87">THREE.JS · WEBGL · REACT · 3D MODELING · BLENDER · INTERACTIVE UI</text>
+      <a href="https://metadata-mechanical-keyboard.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">05 / METADATA — MECHANICAL KEYBOARD STORE <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Custom mechanical keyboard e-commerce store with interactive product displays and modern aesthetic UX.</text>
+      <text class="copy" x="48" y="68">Blends custom hardware specs with smooth web transitions for tech enthusiasts and gamers.</text>
+      <text class="meta" x="48" y="87">NEXT.JS · TAILWIND CSS · THREE.JS · CUSTOM E-COMMERCE</text>
       <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
     </g>
+
+    <!-- 06 / ZENTRY -->
     <g class="row r6" transform="translate(0 570)">
-      <text class="title" x="48" y="24">06 / SIGNALIST</text>
-      <text class="copy" x="48" y="49">Stock market analyzer with real-time data visualization, trend analysis, and portfolio insights.</text>
-      <text class="copy" x="48" y="68">Combines fintech domain knowledge with modern frontend patterns for actionable market intelligence.</text>
-      <text class="meta" x="48" y="87">REACT · TYPESCRIPT · FINANCIAL DATA · CHARTS · FINTECH · ANALYTICS</text>
+      <a href="https://zentry-kappa-nine.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">06 / ZENTRY KAPPA NINE — GAMING LANDING PAGE <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">High-performance gaming showcase platform featuring fluid web animations and immersive visual interactions.</text>
+      <text class="copy" x="48" y="68">Engineered with GSAP and Framer Motion for a state-of-the-art interactive gaming presentation.</text>
+      <text class="meta" x="48" y="87">REACT · GSAP · FRAMER MOTION · GAMING UI · ANIMATIONS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <!-- 07 / MOJITO -->
+    <g class="row r7" transform="translate(0 680)">
+      <a href="https://mojito-landing-page-eight.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">07 / MOJITO — BRAND LANDING PAGE <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Sleek beverage product landing page showcasing creative branding, interactive motion, and responsive layout.</text>
+      <text class="copy" x="48" y="68">Demonstrates modern frontend craftsmanship with smooth UI transitions and vibrant product styling.</text>
+      <text class="meta" x="48" y="87">REACT · ANIME.JS · TAILWIND CSS · BRAND SHOWCASE</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <!-- 08 / macOS PORTFOLIO -->
+    <g class="row r8" transform="translate(0 790)">
+      <a href="https://gohar-macos-portfolio.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">08 / macOS DESKTOP STYLE PORTFOLIO <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Interactive macOS-inspired desktop operating system portfolio with draggable windows, dock &amp; terminal.</text>
+      <text class="copy" x="48" y="68">Recreates authentic desktop UI components, app launcher, system controls, and window management.</text>
+      <text class="meta" x="48" y="87">REACT · TYPESCRIPT · TAILWIND CSS · OS EMULATION · CREATIVE UI</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <!-- 09 / ROYALE FRAGRANCES -->
+    <g class="row r9" transform="translate(0 900)">
+      <a href="https://royale-fragrances.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">09 / ROYALE FRAGRANCES — LUXURY STORE <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Luxury fragrance e-commerce website with elegant product catalog, cart management, and premium branding.</text>
+      <text class="copy" x="48" y="68">Designed for high-end boutique retail with smooth navigation and mobile-first shopping experience.</text>
+      <text class="meta" x="48" y="87">NEXT.JS · TAILWIND CSS · E-COMMERCE · LUXURY BRANDING</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <!-- 10 / ADMIN PANEL -->
+    <g class="row r10" transform="translate(0 1010)">
+      <a href="https://admin-panel-pied-five.vercel.app/" target="_blank">
+        <text class="title" x="48" y="24">10 / E-COMMERCE ADMIN DASHBOARD <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+      </a>
+      <text class="copy" x="48" y="49">Comprehensive admin management suite with analytics, inventory controls, order tracking &amp; user metrics.</text>
+      <text class="copy" x="48" y="68">Provides real-time business insights, data tables, and control workflows for store administrators.</text>
+      <text class="meta" x="48" y="87">REACT · NODE.JS · EXPRESS · MONGODB · DASHBOARD &amp; ANALYTICS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <!-- 11 / AI ML SUITE -->
+    <g class="row r11" transform="translate(0 1120)">
+      <text class="title" x="48" y="24">11 / AI &amp; MACHINE LEARNING PROJECT SUITE <tspan class="link-tag">[PYTHON &amp; TF 🧠]</tspan></text>
+      <text class="copy" x="48" y="49">House Price Prediction System (Regression) · Handwritten Digit Recognition (MNIST CNN Classifier).</text>
+      <text class="copy" x="48" y="68">Deep Neural Network architectures for pattern recognition, model evaluation, and predictive analytics.</text>
+      <text class="meta" x="48" y="87">PYTHON · TENSORFLOW · DEEP LEARNING · SCIKIT-LEARN · NEURAL NETWORKS</text>
       <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
     </g>
   </g>
