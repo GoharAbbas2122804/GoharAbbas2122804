@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1000 110" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="04 / ZYRAH — E-COMMERCE STORE">
+  <style>
+    :root { --ink:#FFFFFF; --copy:#EEEEEE; --meta:#CCCCCC; --rule:#555555; --paper:#000000; --link:#38bdf8; }
+    @media (prefers-color-scheme: light) {
+      :root { --ink:#000000; --copy:#222222; --meta:#444444; --rule:#CCCCCC; --paper:#FFFFFF; --link:#0284c7; }
+    }
+    .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
+    .rule { stroke:var(--rule); stroke-width:1.5; }
+    .title { fill:var(--ink); font-size:19px; font-weight:800; letter-spacing:0.5px; }
+    .copy { fill:var(--copy); font-size:14px; font-weight:500; }
+    .meta { fill:var(--meta); font-size:12.5px; font-weight:700; letter-spacing:.6px; }
+    .link-tag { fill:var(--link); font-size:13.5px; font-weight:800; letter-spacing:0.5px; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
+  </style>
+
+  <g class="mono row">
+    <text class="title" x="48" y="24">04 / ZYRAH — E-COMMERCE STORE <tspan class="link-tag">[LIVE DEMO ↗]</tspan></text>
+    <text class="copy" x="48" y="49">Feature-rich e-commerce web application with product catalog, cart, secure checkout, and order flow.</text>
+    <text class="copy" x="48" y="68">Scalable architecture with responsive UI serving customers across mobile and desktop devices.</text>
+    <text class="meta" x="48" y="87">REACT · NODE.JS · MONGODB · REDUX · E-COMMERCE · PAYMENTS</text>
+    <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+  </g>
+</svg>
